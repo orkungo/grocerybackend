@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @shelf.name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @shelf.description %>
+</p>
+
+<p>
+  <b>Products:</b> <br/>
+  <% @products= @shelf.products %>
+  <% @products.each do |product| %>
+      <tr>
+        <td><%= product.name %></td>
+        <td><%= image_tag product.image.url(:thumb)%></td><br/>
+  <%end%>
+
+</p>
+
+
+<%= link_to 'Edit', edit_shelf_path(@shelf) %> |
+<%= link_to 'Back', shelves_path %>
