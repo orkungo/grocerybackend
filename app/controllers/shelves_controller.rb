@@ -15,16 +15,9 @@ class ShelvesController < ApplicationController
   def show
     @shelf = Shelf.find(params[:id])
 
-   def  is_mobile_request?
-     respond_to do |format|
-      format.mobile
-
-     end
-   end
-
-
     respond_to do |format|
       format.html # show.html.erb
+      format.mobile {render "layouts/application.mobile"}
       format.json { render json: @shelf }
     end
   end
