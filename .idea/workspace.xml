@@ -17,7 +17,7 @@
     <file path="/application.css" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364490732680" ignored="false" />
     <file path="/routes.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364905759365" ignored="false" />
     <file path="/application.mobile.html.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364992914989" ignored="false" />
-    <file path="/shelves_controller.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364996653518" ignored="false" />
+    <file path="/shelves_controller.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364998711420" ignored="false" />
     <file path="/application_controller.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364994815280" ignored="false" />
     <file path="/application.mobile.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364996582511" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.mobile.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.mobile.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.mobile.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="9" selection-start="325" selection-end="325" vertical-scroll-proportion="0.5378486">
+            <state line="7" column="22" selection-start="242" selection-end="242" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
@@ -117,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shelves_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="shelves_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/shelves_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="38" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+            <state line="19" column="28" selection-start="427" selection-end="427" vertical-scroll-proportion="0.40458015">
               <folding />
             </state>
           </provider>
@@ -149,9 +149,9 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.mobile.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/shelves_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.mobile.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/shelves_controller.rb" />
       </list>
     </option>
   </component>
@@ -927,13 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/shelves_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="38" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="12" selection-start="664" selection-end="677" vertical-scroll-proportion="0.0">
@@ -957,7 +950,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.mobile.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="325" selection-end="325" vertical-scroll-proportion="0.5378486">
+        <state line="7" column="22" selection-start="242" selection-end="242" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/shelves_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="28" selection-start="427" selection-end="427" vertical-scroll-proportion="0.40458015">
           <folding />
         </state>
       </provider>
