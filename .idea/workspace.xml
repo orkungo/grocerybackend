@@ -120,7 +120,7 @@
       <file leaf-file-name="shelves_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/shelves_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="28" selection-start="427" selection-end="427" vertical-scroll-proportion="0.40458015">
+            <state line="25" column="25" selection-start="522" selection-end="522" vertical-scroll-proportion="0.7480916">
               <folding />
             </state>
           </provider>
@@ -957,7 +957,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/shelves_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="28" selection-start="427" selection-end="427" vertical-scroll-proportion="0.40458015">
+        <state line="25" column="25" selection-start="522" selection-end="522" vertical-scroll-proportion="0.7480916">
           <folding />
         </state>
       </provider>
