@@ -73,6 +73,8 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.21)
+    mobylette (3.3.2)
+      actionpack (>= 3.0)
     multi_json (1.7.2)
     nokogiri (1.5.9)
     paperclip (3.4.1)
@@ -150,6 +152,7 @@ DEPENDENCIES
   less
   less-rails
   libv8
+  mobylette
   paperclip
   pg
   rails (= 3.2.11)

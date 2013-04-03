@@ -32,6 +32,7 @@ end
 
 gem 'jquery-rails'
 gem 'jquery_mobile_rails'
+gem 'mobylette'
 
 
 # To use ActiveModel has_secure_password

@@ -15,8 +15,10 @@ class ShelvesController < ApplicationController
   def show
     @shelf = Shelf.find(params[:id])
 
+
     respond_to do |format|
       format.html # show.html.erb
+      format.mobile
       format.json { render json: @shelf }
     end
   end
