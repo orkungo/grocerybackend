@@ -17,7 +17,14 @@ class ShelvesController < ApplicationController
 
     respond_to do |format|
       format.html # show.html.erb
-      format.mobile
+
+
+
+     is_mobile_request? do
+       format.mobile
+
+     end
+
       format.json { render json: @shelf }
     end
   end
