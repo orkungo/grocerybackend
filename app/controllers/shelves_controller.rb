@@ -1,6 +1,6 @@
 class ShelvesController < ApplicationController
 
-  before_filter :force_mobile_format,:show
+  before_filter :force_mobile,only:[:show]
 
 
 

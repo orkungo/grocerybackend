@@ -2,9 +2,9 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   include Mobylette::RespondToMobileRequests
 
-  private
 
-  def force_mobile_format
+
+  def force_mobile
     params[:format] = 'mobile'
   end
 
