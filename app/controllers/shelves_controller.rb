@@ -1,6 +1,10 @@
 class ShelvesController < ApplicationController
 
-  before_filter :force_mobile,only:[:show]
+
+
+  def is_mobile_request?
+    action = :show , true
+  end
 
 
 
@@ -26,6 +30,7 @@ class ShelvesController < ApplicationController
       format.mobile
       format.json { render json: @shelf }
     end
+
   end
 
   # GET /shelves/new

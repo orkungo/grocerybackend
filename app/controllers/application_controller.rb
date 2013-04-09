@@ -4,10 +4,4 @@ class ApplicationController < ActionController::Base
 
 
 
-  def force_mobile
-    params[:format] = 'mobile'
-  end
-
-
-
 end
