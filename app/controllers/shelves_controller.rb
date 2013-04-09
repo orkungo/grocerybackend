@@ -1,19 +1,14 @@
 class ShelvesController < ApplicationController
-  include Mobylette::RespondToMobileRequests
 
 
-  mobylette_config do |config|
-    config[:fallback_chains] = {
-        mobile: [:mobile, :html]
-    }
-  end
+before_filter :force_mobile_format, only: [:show]
+
 
   # GET /shelves
   # GET /shelves.json
 
 
   def index
-    session[:mobylette_override] = :nil
     @shelves = Shelf.all
 
     respond_to do |format|
@@ -25,7 +20,6 @@ class ShelvesController < ApplicationController
   # GET /shelves/1
   # GET /shelves/1.json
   def show
-    session[:mobylette_override] = :force_mobile
     @shelf = Shelf.find(params[:id])
     respond_to do |format|
       format.html # show.html.erb
@@ -37,7 +31,6 @@ class ShelvesController < ApplicationController
   # GET /shelves/new
   # GET /shelves/new.json
   def new
-    session[:mobylette_override] = nil
     @shelf = Shelf.new
 
     respond_to do |format|
@@ -48,14 +41,12 @@ class ShelvesController < ApplicationController
 
   # GET /shelves/1/edit
   def edit
-    session[:mobylette_override] = nil
     @shelf = Shelf.find(params[:id])
   end
 
   # POST /shelves
   # POST /shelves.json
   def create
-    session[:mobylette_override] = nil
     @shelf = Shelf.new(params[:shelf])
 
     respond_to do |format|
@@ -72,7 +63,6 @@ class ShelvesController < ApplicationController
   # PUT /shelves/1
   # PUT /shelves/1.json
   def update
-    session[:mobylette_override] = nil
     @shelf = Shelf.find(params[:id])
 
     respond_to do |format|
@@ -89,7 +79,6 @@ class ShelvesController < ApplicationController
   # DELETE /shelves/1
   # DELETE /shelves/1.json
   def destroy
-    session[:mobylette_override] = nil
     @shelf = Shelf.find(params[:id])
     @shelf.destroy
 
