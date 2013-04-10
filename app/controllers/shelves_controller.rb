@@ -1,11 +1,14 @@
 class ShelvesController < ApplicationController
+  #before_filter :force_mobile_format, only: [:show]
 
 
+  #def is_mobile_request?
+  #  action = :show , true
+  #end
 
-  def is_mobile_request?
-    action = :show , true
+  def respond_to_mobile_requests
+    params[:format] = 'mobile'
   end
-
 
 
   # GET /shelves
@@ -24,10 +27,14 @@ class ShelvesController < ApplicationController
   # GET /shelves/1
   # GET /shelves/1.json
   def show
+
     @shelf = Shelf.find(params[:id])
+    is_mobile_request?
+    respond_to_mobile_requests do |format|
+    format.mobile
+    end
     respond_to do |format|
       format.html # show.html.erb
-      format.mobile
       format.json { render json: @shelf }
     end
 
