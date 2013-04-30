@@ -15,9 +15,10 @@
   <% @products= @shelf.products %>
   <% @products.each do |product| %>
       <tr>
-        <td><%= product.name %></td>
-        <td><%= image_tag product.image.url(:thumb)%></td><br/>
-  <%end%>
+        <td><%= link_to image_tag(product.image.url(:thumb)),product.image.url(:thumb)%> </td>
+
+
+<%end%>
 
 </p>
 

@@ -14,5 +14,11 @@ class Product < ActiveRecord::Base
 
      belongs_to :shelf
 
+  def product_self_url
+
+    product.url(:original)
+
+  end
+
 
 end
