@@ -24,6 +24,11 @@
     <%= f.number_field :price %>
   </div>
 
+    <div class="field">
+    <%= f.label :expiration_date %><br />
+    <%= f.date_select :expiration_date %>
+  </div>
+
   <div class="field">
     <%= f.label :shelf_id %>
     <%= f.select :shelf_id, Shelf.all.collect { |x| [x.name, x.id]} %>

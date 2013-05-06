@@ -15,6 +15,11 @@
   <%= @product.price %>
 </p>
 
+<p>
+  <b>Expires on:</b>
+  <%= @product.expiration_date %>
+</p>
+
 
 <%= image_tag @product.image.url(:thumb)%>
 
