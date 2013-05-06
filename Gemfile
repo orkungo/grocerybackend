@@ -50,4 +50,3 @@ gem 'mobylette'
 # To use debugger
 # gem 'debugger'
 
-gem 'bootstrap-datepicker-rails'
