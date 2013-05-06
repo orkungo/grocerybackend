@@ -7,7 +7,7 @@
     <file path="/show.html.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1367842457203" ignored="false" />
     <file path="/product.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1367843679294" ignored="false" />
     <file path="/Gemfile" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364992300375" ignored="false" />
-    <file path="/index.html.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1367843768315" ignored="false" />
+    <file path="/index.html.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1367844941976" ignored="false" />
     <file path="/edit.html.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364475822617" ignored="false" />
     <file path="/shelf.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364480808497" ignored="false" />
     <file path="/_form.html.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1367844801132" ignored="false" />
@@ -47,10 +47,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="14" selection-start="753" selection-end="753" vertical-scroll-proportion="0.43396226">
+            <state line="28" column="14" selection-start="753" selection-end="753" vertical-scroll-proportion="-2.875">
               <folding />
             </state>
           </provider>
@@ -92,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="22" selection-start="508" selection-end="508" vertical-scroll-proportion="-12.5">
+            <state line="19" column="30" selection-start="343" selection-end="343" vertical-scroll-proportion="0.6603774">
               <folding />
             </state>
           </provider>
@@ -147,13 +147,13 @@
         <option value="$PROJECT_DIR$/app/views/shelves/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20130328001516_create_products.rb" />
-        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/products.js.coffee" />
         <option value="$PROJECT_DIR$/app/models/product.rb" />
         <option value="$PROJECT_DIR$/app/views/products/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/products/index.html.erb" />
       </list>
     </option>
   </component>
@@ -763,7 +763,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45777026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45777026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -886,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="22" selection-start="508" selection-end="508" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130506124116_add_expiration_to_products.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
@@ -944,7 +937,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="14" selection-start="753" selection-end="753" vertical-scroll-proportion="0.43396226">
+        <state line="28" column="14" selection-start="753" selection-end="753" vertical-scroll-proportion="-2.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/products/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="30" selection-start="343" selection-end="343" vertical-scroll-proportion="0.6603774">
           <folding />
         </state>
       </provider>
