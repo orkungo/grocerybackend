@@ -20,7 +20,7 @@
     <file path="/shelves_controller.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1365541269484" ignored="false" />
     <file path="/application_controller.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1365541677396" ignored="false" />
     <file path="/application.mobile.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1365421134146" ignored="false" />
-    <file path="/show.mobile.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1367141737958" ignored="false" />
+    <file path="/show.mobile.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1367850233083" ignored="false" />
     <file path="/20130328001516_create_products.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1367843554802" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="show.mobile.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/shelves/show.mobile.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="24" selection-start="333" selection-end="333" vertical-scroll-proportion="0.6721311">
+            <state line="17" column="26" selection-start="335" selection-end="335" vertical-scroll-proportion="0.627551">
               <folding />
             </state>
           </provider>
@@ -917,7 +917,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shelves/show.mobile.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="24" selection-start="333" selection-end="333" vertical-scroll-proportion="0.6721311">
+        <state line="17" column="26" selection-start="335" selection-end="335" vertical-scroll-proportion="0.627551">
           <folding />
         </state>
       </provider>

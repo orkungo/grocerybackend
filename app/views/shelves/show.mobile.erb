@@ -15,7 +15,8 @@
   <% @products= @shelf.products %>
   <% @products.each do |product| %>
       <tr>
-        <td><%=image_tag product.image.url(:thumb)+ product.name, url_for({:controller=>'shelves',:action=>'show'})%></td><br/>
+        <td><%=image_tag product.image.url(:thumb)%></td><br/>
+        <td><%= product.name%></td><br/>
   <%end%>
      </div>
 </p>
