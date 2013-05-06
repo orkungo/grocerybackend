@@ -1,5 +1,5 @@
 class Product < ActiveRecord::Base
-  attr_accessible :description, :name, :price ,:expiration_date, :shelf , :shelf_id
+  attr_accessible :description, :name, :price , :shelf , :shelf_id, :expiration
   attr_accessible :image
   has_attached_file :image, :styles => { :medium => "300x300>", :thumb => "100x100>" }, :default_url => "/images/:style/missing.png",
 

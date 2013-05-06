@@ -25,9 +25,11 @@
   </div>
 
     <div class="field">
-    <%= f.label :expiration_date %><br />
-    <%= f.date_select :expiration_date %>
+    <%= f.label :expiration %><br />
+    <%= f.date_select :expiration, :class => 'datepicker' %>
   </div>
+
+
 
   <div class="field">
     <%= f.label :shelf_id %>
