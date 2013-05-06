@@ -10,7 +10,7 @@
     <file path="/index.html.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1367844941976" ignored="false" />
     <file path="/edit.html.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364475822617" ignored="false" />
     <file path="/shelf.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364480808497" ignored="false" />
-    <file path="/_form.html.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1367844801132" ignored="false" />
+    <file path="/_form.html.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1367849099495" ignored="false" />
     <file path="/products_controller.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1365418415077" ignored="false" />
     <file path="/application.html.erb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364997239980" ignored="false" />
     <file path="/production.rb" changelist="dd66e96f-2c33-4d20-84d2-4751eb286a18" time="1364490263479" ignored="false" />
@@ -50,7 +50,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="20" selection-start="786" selection-end="786" vertical-scroll-proportion="1.0813954">
+            <state line="28" column="45" selection-start="784" selection-end="784" vertical-scroll-proportion="0.5345912">
               <folding />
             </state>
           </provider>
@@ -721,7 +721,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="959" height="688" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -731,7 +731,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45777026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45777026" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -895,7 +895,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="786" selection-end="786" vertical-scroll-proportion="1.0813954">
+        <state line="28" column="45" selection-start="784" selection-end="784" vertical-scroll-proportion="0.5345912">
           <folding />
         </state>
       </provider>
