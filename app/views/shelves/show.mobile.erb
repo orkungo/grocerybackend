@@ -1,5 +1,4 @@
 
-<div data-role="page">
 
 <div data-role="header">
 
@@ -14,14 +13,17 @@
 
 
 <div data-role="content">
-  <b>Products:</b> <br/>
-  <% @products= @shelf.products %>
-  <% @products.each do |product| %>
-      <tr>
-        <td><%=image_tag product.image.url(:thumb)%></td>
-        <td><%= product.name%></td><br/>
-  <%end%>
+
+  <ul data-role="listview" data-inset="true">
+    <b>Products:</b> <br/>
+    <% @products= @shelf.products %>
+    <% @products.each do |product| %>
+        <tr>
+        <li><%=image_tag product.image.url(:thumb)%></li>
+        <li><%= product.name%><<li/>
+    <%end%>
+     </ul>
+
      </div>
 </p>
 
-</div>
