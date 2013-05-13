@@ -13,6 +13,8 @@ class Product < ActiveRecord::Base
                     :path => "/:style/:id/:filename"
 
      belongs_to :shelf
+  validates :image, :attachment_presence => true
+  validates_attachment_content_type :image, :content_type => /image/
 
   def product_self_url
 
