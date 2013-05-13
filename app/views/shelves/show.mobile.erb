@@ -19,10 +19,10 @@
     <% @products= @shelf.products %>
     <% @products.each do |product| %>
         <tr>
-        <li><%=image_tag product.image.url(:thumb)%></li>
-        <li><%= product.name%><li/>
-        <li><%= product.price%><li/>
-        <li><%= product.expiration%><li/>
+        <li><%=image_tag product.image.url(:thumb)%>
+          <b>Name:</b>  <%= product.name%>
+          <b>Price:</b> <%= product.price%>
+          <b>Expirtation:</b> <%= product.expiration%></li>
     <%end%>
      </ul>
 
