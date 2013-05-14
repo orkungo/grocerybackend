@@ -36,8 +36,10 @@
     <%= f.select :shelf_id, Shelf.all.collect { |x| [x.name, x.id]} %>
   </div>
 
-
-  <%= f.file_field :image %>
+    <div class="field">
+      <%= f.label :image,"Product Picture" %>
+      <%= f.file_field :image %>
+    </div>
 
   <div class="actions">
     <%= f.submit %>
