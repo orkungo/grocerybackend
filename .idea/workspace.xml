@@ -78,7 +78,7 @@
       <file leaf-file-name="show.mobile.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/shelves/show.mobile.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="19" selection-start="696" selection-end="696" vertical-scroll-proportion="1.1971831">
+            <state line="20" column="18" selection-start="365" selection-end="365" vertical-scroll-proportion="0.53097343">
               <folding />
             </state>
           </provider>
@@ -862,7 +862,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shelves/show.mobile.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="19" selection-start="696" selection-end="696" vertical-scroll-proportion="1.1971831">
+        <state line="20" column="18" selection-start="365" selection-end="365" vertical-scroll-proportion="0.53097343">
           <folding />
         </state>
       </provider>
